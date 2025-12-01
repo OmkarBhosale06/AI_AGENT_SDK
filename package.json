@@ -1,0 +1,25 @@
+{
+  "name": "ai_agent_sdk",
+  "version": "1.0.0",
+  "description": "Customizable Agentic AI SDK",
+  "main": "src/core/Agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node examples/basic.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "mcp",
+    "sdk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
