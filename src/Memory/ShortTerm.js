@@ -18,4 +18,14 @@ class ShortTermMemory {
         return await this.memory.getMemory(key);
     }
 
+    async SMdelete(key) {
+        await this.memory.deleteMemory(key);
+    }
+
+    async SMClear() {
+        await this.memory.clearMemory();
+    }
+
+
+
 }
