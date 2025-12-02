@@ -1,6 +1,6 @@
 const PlannerOrchestrator = require('../src/core/PlannerOrchestrator');
 const LLMProvider = require('../src/core/LLMProvider');
-const OpenAIProvider = require('../src/core/providers/llm/OpenAIProvider');
+const OpenAIProvider = require('../src/core/providers/llm/OpenAi');
 const AnthropicProvider = require('../src/providers/llm/AnthropicProvider');
 
 /**
