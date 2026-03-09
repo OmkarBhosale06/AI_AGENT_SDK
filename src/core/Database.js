@@ -1,4 +1,4 @@
-const BaseDatabaseProvider = require('./providers/database/BaseDatabaseProvider');
+const BaseDatabaseProvider = require('./database/BaseDatabaseProvider');
 
 /**
  * Dynamic Database Provider Manager
