@@ -25,3 +25,5 @@ class MiddlewareManager {
         return context;
     }
 }
+
+module.exports = MiddlewareManager;
