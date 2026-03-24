@@ -1,4 +1,3 @@
-// src/core/Middleware.js
 class MiddlewareManager {
     constructor() {
         this.hooks = {
@@ -26,3 +25,5 @@ class MiddlewareManager {
         return context;
     }
 }
+
+module.exports = MiddlewareManager;
