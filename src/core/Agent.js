@@ -1,4 +1,4 @@
-const LLMProvider = require('./LLMProvider');
+const LLMProvider = require('./providers/LLMProvider');
 const Database = require('./Database');
 const MCPServer = require('./MCPServer');
 const MiddlewareManager = require('./Middleware');

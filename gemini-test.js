@@ -1,7 +1,9 @@
 const Agent = require('./src/core/Agent');
 const GeminiProvider = require('./src/core/providers/GeminiProvider');
 const BaseDatabaseProvider = require('./src/core/database/BaseDatabaseProvider');
-
+const { config } = require('node:process');
+require('dotenv').config();
+// const config = require('./config.json')
 class MockDatabaseProvider extends BaseDatabaseProvider {
   constructor(config = {}) {
     super(config);
@@ -28,7 +30,7 @@ class MockDatabaseProvider extends BaseDatabaseProvider {
 }
 
 async function main() {
-  const apiKey = config.apiKey;
+  const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error('Set GEMINI_API_KEY before running gemini-test.js');
   }

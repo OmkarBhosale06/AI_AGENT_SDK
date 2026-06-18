@@ -1,4 +1,4 @@
-const BaseLLMProvider = require('./providers/BaseLLMProvider');
+const BaseLLMProvider = require('./BaseLLMProvider');
 
 /**
  * Dynamic LLM Provider Manager
